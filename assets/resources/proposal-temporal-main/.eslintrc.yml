@@ -1,0 +1,128 @@
+env:
+  browser: true
+  es6: true
+  node: true
+plugins:
+  - prettier
+  - '@typescript-eslint'
+extends:
+  - 'eslint:recommended'
+  - 'plugin:prettier/recommended'
+  - 'plugin:@typescript-eslint/recommended'
+parser: '@typescript-eslint/parser' # for index.d.ts
+globals:
+  Atomics: readonly
+  BigInt: readonly
+  SharedArrayBuffer: readonly
+  globalThis: readonly
+parserOptions:
+  ecmaVersion: 2020
+  sourceType: module
+ignorePatterns:
+  - node_modules/
+  - /out/
+  - /polyfill/dist/
+  - /polyfill/test262/
+  - /polyfill/venv/
+  - /polyfill/coverage/
+  # Specific generated files
+  - /polyfill/script.js
+rules:
+  array-element-newline:
+    - error
+    - consistent
+  arrow-parens: error
+  arrow-spacing: error
+  brace-style:
+    - error
+    - 1tbs
+  comma-dangle: error
+  comma-spacing: error
+  curly:
+    - error
+    - multi-line
+  func-call-spacing: error
+  function-call-argument-newline:
+    - error
+    - consistent
+  indent:
+    - error
+    - 2
+    - SwitchCase: 1
+  keyword-spacing: error
+  max-len:
+    - error
+    - code: 120
+      ignoreRegExpLiterals: true
+  no-alert: error
+  no-console: error
+  no-multiple-empty-lines:
+    - error
+    - max: 1
+  no-trailing-spaces: error
+  object-curly-spacing:
+    - error
+    - always
+  object-property-newline:
+    - error
+    - allowAllPropertiesOnSameLine: true
+  quote-props:
+    - error
+    - as-needed
+  quotes:
+    - error
+    - single
+    - avoidEscape: true
+  semi: error
+  space-infix-ops: error
+  '@typescript-eslint/explicit-module-boundary-types': off
+  '@typescript-eslint/no-empty-function': off
+  '@typescript-eslint/no-var-requires': off
+  '@typescript-eslint/ban-ts-comment': off
+overrides:
+  - files:
+      - polyfill/test/Calendar/**/*.js
+      - polyfill/test/PlainDate/**/*.js
+      - polyfill/test/PlainDateTime/**/*.js
+      - polyfill/test/Duration/**/*.js
+      - polyfill/test/Instant/**/*.js
+      - polyfill/test/ISO8601Calendar/**/*.js
+      - polyfill/test/PlainMonthDay/**/*.js
+      - polyfill/test/Temporal/**/*.js
+      - polyfill/test/PlainTime/**/*.js
+      - polyfill/test/TimeZone/**/*.js
+      - polyfill/test/PlainYearMonth/**/*.js
+      - polyfill/test/ZonedDateTime/**/*.js
+      - polyfill/test/helpers/*.js
+      - polyfill/test/Now/**/*.js
+    globals:
+      Temporal: readonly
+      TemporalHelpers: readonly
+      Test262Error: readonly
+      assert: readonly
+      isConstructor: readonly
+      verifyProperty: readonly
+    # test262 code complies to a different coding style
+    extends: 'eslint:recommended'
+    rules:
+      brace-style: 'off'
+      comma-dangle: 'off'
+      function-call-argument-newline: 'off'
+      max-len: 'off'
+      no-prototype-builtins: 'off'
+      prettier/prettier: 'off'
+      quotes: 'off'
+  - files:
+      - polyfill/test/helpers/temporalHelpers.js
+    rules:
+      no-unused-vars: 'off'
+      '@typescript-eslint/no-unused-vars': 'off'
+  - files:
+      - docs/buildDocs.js
+      - polyfill/lib/duration.mjs
+      - polyfill/lib/init.js
+      - polyfill/test/all.mjs
+      - polyfill/test/exhaust.mjs
+      - polyfill/test/validStrings.mjs
+    rules:
+      no-console: off
