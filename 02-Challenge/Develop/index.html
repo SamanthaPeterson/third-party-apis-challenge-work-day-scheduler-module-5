@@ -27,11 +27,27 @@
 
 
 
-
     </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-</body>
+    <dx:BootstrapScheduler runat="server" ActiveViewType="Timeline" GroupType="Resource" AppointmentDataSourceID="AppointmentDataSource" ResourceDataSourceID="efResourceDataSource">
+        <ClientSideEvents AppointmentClick="function(s, e) { dxbsDemo.eventMonitor.trace(s, e, 'AppointmentClick'); }" AppointmentDrag="function(s, e) { dxbsDemo.eventMonitor.trace(s, e, 'AppointmentDrag'); }" AppointmentDrop="function(s, e) { dxbsDemo.eventMonitor.trace(s, e, 'AppointmentDrop'); }"
+            AppointmentResize="function(s, e) { dxbsDemo.eventMonitor.trace(s, e, 'AppointmentResize'); }" AppointmentResizing="function(s, e) { dxbsDemo.eventMonitor.trace(s, e, 'AppointmentResizing'); }" AppointmentDeleting="function(s, e) { dxbsDemo.eventMonitor.trace(s, e, 'AppointmentDeleting'); }"
+            AppointmentsSelectionChanged="function(s, e) { dxbsDemo.eventMonitor.trace(s, e, 'AppointmentsSelectionChanged'); }" AppointmentDoubleClick="function(s, e) { dxbsDemo.eventMonitor.trace(s, e, 'AppointmentDoubleClick'); }" ActiveViewChanged="function(s, e) { dxbsDemo.eventMonitor.trace(s, e, 'ActiveViewChanged'); }"
+            ActiveViewChanging="function(s, e) { dxbsDemo.eventMonitor.trace(s, e, 'ActiveViewChanging'); }" SelectionChanged="function(s, e) { dxbsDemo.eventMonitor.trace(s, e, 'SelectionChanged'); }" SelectionChanging="function(s, e) { dxbsDemo.eventMonitor.trace(s, e, 'SelectionChanging'); }"
+            VisibleIntervalChanged="function(s, e) { dxbsDemo.eventMonitor.trace(s, e, 'VisibleIntervalChanged'); }" MenuItemClicked="function(s, e) { dxbsDemo.eventMonitor.trace(s, e, 'MenuItemClicked'); }" MoreButtonClicked="function(s, e) { dxbsDemo.eventMonitor.trace(s, e, 'MoreButtonClicked'); }"
+            MouseUp="function(s, e) { dxbsDemo.eventMonitor.trace(s, e, 'MouseUp'); }" BeginCallback="function(s, e) { dxbsDemo.eventMonitor.trace(s, e, 'BeginCallback'); }" CallbackError="function(s, e) { dxbsDemo.eventMonitor.trace(s, e, 'CallbackError'); }"
+            EndCallback="function(s, e) { dxbsDemo.eventMonitor.trace(s, e, 'EndCallback'); }" Init="function(s, e) { dxbsDemo.eventMonitor.trace(s, e, 'Init'); }" />
+        <OptionsResourceNavigator EnableIncreaseDecrease="false" />
+        <Views>
+            <DayView ResourcesPerPage="2" DayCount="2" />
+            <WorkWeekView ResourcesPerPage="1" />
+            <WeekView Enabled="false" />
+            <MonthView Enabled="false" />
+            <TimelineView ResourcesPerPage="1" IntervalCount="5" />
+        </Views>
+    </dx:BootstrapScheduler>
+    < </body>
 
 </html>
