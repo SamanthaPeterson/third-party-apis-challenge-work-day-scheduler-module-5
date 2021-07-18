@@ -22,32 +22,59 @@
         <!-- Timeblocks go here -->
 
 
+        <h1>✨ Open the console to see the magic ✨</h1>
+
+        <script src="https://code.jquery.com/jquery.js"></script>
+
+        <!-- Import Moment.js here -->
+        <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+
+        <script>
+            var randomDate = '02/23/1999';
+            // Convert the `randomDate` to the "MM/DD/YYYY" format using `moment()`
+            var randomFormat = 'MM/DD/YYYY';
+            var convertedDate = moment(randomDate, randomFormat);
+            // Log `convertedDate` into the console
+            console.log(convertedDate);
+            console.log('----------------------------------------');
+
+            // Convert `convertedDate` into three other date formats of your choice using `.format()`
+            // Log them into the console
+            console.log(convertedDate.format('MM/DD/YY'));
+            console.log(convertedDate.format('MMM Do, YYYY hh:mm:ss'));
+            console.log(convertedDate.format('X'));
+            console.log('----------------------------------------');
+
+            // Calculate the time in years, months, days between today and the `convertedDate` using `.toNow()` and `.diff()`
+            // Log them into the console
+            console.log(convertedDate.toNow());
+            console.log(convertedDate.diff(moment(), 'years'));
+            console.log(convertedDate.diff(moment(), 'months'));
+            console.log(convertedDate.diff(moment(), 'days'));
+            console.log('----------------------------------------');
+
+            // Calculate the number of days between the `convertedDate` and 02/14/2001
+            // Log it into the console
+            var newDate = moment('02/14/2001', randomFormat);
+            console.log(convertedDate.diff(newDate, 'days'));
+            console.log('----------------------------------------');
+
+            // Determine what day of the week and what week of the year the `convertedDate` falls on
+            // Log them into the console
+            console.log(convertedDate.format('dddd'));
+            console.log(convertedDate.format('Wo'));
 
 
 
 
+            <
+            /div>
 
-    </div>
-
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-    <dx:BootstrapScheduler runat="server" ActiveViewType="Timeline" GroupType="Resource" AppointmentDataSourceID="AppointmentDataSource" ResourceDataSourceID="efResourceDataSource">
-        <ClientSideEvents AppointmentClick="function(s, e) { dxbsDemo.eventMonitor.trace(s, e, 'AppointmentClick'); }" AppointmentDrag="function(s, e) { dxbsDemo.eventMonitor.trace(s, e, 'AppointmentDrag'); }" AppointmentDrop="function(s, e) { dxbsDemo.eventMonitor.trace(s, e, 'AppointmentDrop'); }"
-            AppointmentResize="function(s, e) { dxbsDemo.eventMonitor.trace(s, e, 'AppointmentResize'); }" AppointmentResizing="function(s, e) { dxbsDemo.eventMonitor.trace(s, e, 'AppointmentResizing'); }" AppointmentDeleting="function(s, e) { dxbsDemo.eventMonitor.trace(s, e, 'AppointmentDeleting'); }"
-            AppointmentsSelectionChanged="function(s, e) { dxbsDemo.eventMonitor.trace(s, e, 'AppointmentsSelectionChanged'); }" AppointmentDoubleClick="function(s, e) { dxbsDemo.eventMonitor.trace(s, e, 'AppointmentDoubleClick'); }" ActiveViewChanged="function(s, e) { dxbsDemo.eventMonitor.trace(s, e, 'ActiveViewChanged'); }"
-            ActiveViewChanging="function(s, e) { dxbsDemo.eventMonitor.trace(s, e, 'ActiveViewChanging'); }" SelectionChanged="function(s, e) { dxbsDemo.eventMonitor.trace(s, e, 'SelectionChanged'); }" SelectionChanging="function(s, e) { dxbsDemo.eventMonitor.trace(s, e, 'SelectionChanging'); }"
-            VisibleIntervalChanged="function(s, e) { dxbsDemo.eventMonitor.trace(s, e, 'VisibleIntervalChanged'); }" MenuItemClicked="function(s, e) { dxbsDemo.eventMonitor.trace(s, e, 'MenuItemClicked'); }" MoreButtonClicked="function(s, e) { dxbsDemo.eventMonitor.trace(s, e, 'MoreButtonClicked'); }"
-            MouseUp="function(s, e) { dxbsDemo.eventMonitor.trace(s, e, 'MouseUp'); }" BeginCallback="function(s, e) { dxbsDemo.eventMonitor.trace(s, e, 'BeginCallback'); }" CallbackError="function(s, e) { dxbsDemo.eventMonitor.trace(s, e, 'CallbackError'); }"
-            EndCallback="function(s, e) { dxbsDemo.eventMonitor.trace(s, e, 'EndCallback'); }" Init="function(s, e) { dxbsDemo.eventMonitor.trace(s, e, 'Init'); }" />
-        <OptionsResourceNavigator EnableIncreaseDecrease="false" />
-        <Views>
-            <DayView ResourcesPerPage="2" DayCount="2" />
-            <WorkWeekView ResourcesPerPage="1" />
-            <WeekView Enabled="false" />
-            <MonthView Enabled="false" />
-            <TimelineView ResourcesPerPage="1" IntervalCount="5" />
-        </Views>
-    </dx:BootstrapScheduler>
+            <
+            script src = "https://code.jquery.com/jquery-3.4.1.min.js" >
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+        <script rel="script" href="script.js"></script>
 </body>
 
 </html>
