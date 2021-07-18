@@ -1,0 +1,6 @@
+{
+    "debug.console.closeOnEnd": true,
+    "debug.allowBreakpointsEverywhere": true,
+    "problems.showCurrentInStatus": true,
+    "task.problemMatchers.neverPrompt": true
+}
