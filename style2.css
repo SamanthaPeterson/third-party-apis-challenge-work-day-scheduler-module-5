@@ -1,17 +1,17 @@
 html body {
-    background: #5c84c0;
+    background: #7e2936;
 }
 
 html body .page-hero h3 {
     font-size: 3rem;
     font-weight: bold;
-    text-shadow: -1px -1px 1px #460000, 2px 2px 1px #4db048;
+    text-shadow: -1px -1px 1px #460000, 2px 2px 1px #61ff49;
     text-transform: uppercase;
-    color: #71df9d;
+    color: #5ae0cc;
 }
 
 html body .page-hero p {
-    color: #1b6c22;
+    color: #f1f0ac;
 }
 
 html body .card {
@@ -33,11 +33,11 @@ html body .card-header .nextMonth {
 }
 
 html body .card-body {
-    background: #e46a35;
+    background: #ab90dd;
 }
 
 html body .card-body .days span {
-    background: #afe275;
+    background: #a8d04d;
     color: #fff;
     border-radius: 50%;
     display: inline-block;
@@ -52,7 +52,7 @@ html body .card-body .days span:hover {
 }
 
 html body .card-body .dates span {
-    background: #ab4858;
+    background: #f4bdc6;
     color: #000;
     border-radius: 50%;
     display: inline-block;
@@ -89,12 +89,12 @@ html body .card#event .card-body .events-today {
 }
 
 html body .card#event .card-body .events-input .data-invalid {
-    border-color: red;
+    border-color: rgb(121, 79, 236);
 }
 
 html body .card#event .card-body .events-input .error {
     font-size: 12px;
-    color: red;
+    color: rgb(235, 103, 209);
     position: absolute;
     top: 100%;
 }
