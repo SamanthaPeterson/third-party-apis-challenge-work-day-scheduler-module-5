@@ -22,6 +22,8 @@ Mock-Up
 The following animation demonstrates the application functionality:
 
 day planner demo
+
+
 ![05-third-party-apis-homework-demo](https://user-images.githubusercontent.com/85209802/126107538-a6752017-59cf-426a-bbb5-ad3eb20b9112.gif)
 
 
