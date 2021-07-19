@@ -305,16 +305,13 @@ body {
 /* start FOOTER STYLES START */
 footer {
   background: blueviolet;
-  padding: 40px 35px, auto;
+  padding: 40px 35px;
   margin: 40px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   width: 100%;
   align-items: stretch;
-  align content: flex-wrap: justify-content:;
-  ;
-  ;
 }
 
 footer h6 {
