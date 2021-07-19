@@ -14,7 +14,7 @@ function saveText() {
 }
 
 var textareaEl = $("textarea");
-var localStorageReferences = ["900", "1000", "1100", "1200", "1300", "1400", "1500", "1600", "1700"]
+var localStorageReferences = ["800", "900", "1000", "1100", "1200", "1300", "1400", "1500", "1600", "1700"]
 var timeOfDay = (moment().format('HH')) * 100;
 
 
