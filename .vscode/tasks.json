@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "doctest",
+			"path": "assets/resources/momentjs.com-master 3/",
+			"problemMatcher": [],
+			"label": "npm: doctest - assets/resources/momentjs.com-master 3",
+			"detail": "markdown-doctest"
+		}
+	]
+}
