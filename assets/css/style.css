@@ -314,6 +314,8 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
     width: 100%;
+    align-items: stretch;
+    align content: flex-wrap: justify-content: ;;;
   }
   
   footer h6 {
