@@ -1,0 +1,237 @@
+.justify-content-center
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1;
+}
+
+textarea{
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+  padding: 10px;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+  color: black;
+  border-radius: 0;
+  border-bottom: 10px solid black;
+}
+
+.description{
+  white-space: pre-wrap;
+}
+
+.time-block{
+  text-align: center;
+  border-radius: 15px;
+}
+
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid white;;
+}
+
+.hour {
+  background-color: #ffffff;
+  color: #000000;
+  border-top: 1px dashed #000000;
+}
+
+.past {
+  background-color: #d3d3d3;
+  color: white;
+}
+
+.present {
+  background-color: #ff6961;
+  color: white;
+}
+
+.future {
+  background-color: #77dd77;
+  color: white;
+}
+
+.saveBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #06AED5;
+  color: white;
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1;
+  }
+  
+  .text-box {
+    resize: none;
+    padding: 10px;
+  }
+  
+  .jumbotron {
+    align-items: center;
+    text-align: center;
+    background-color: transparent;
+    color: black;
+    border-radius: 0;
+    border-bottom: 10px solid black;
+  }
+  
+  .description {
+    white-space: pre-wrap;
+  }
+  
+  .time-block {
+    text-align: center;
+    border-radius: 15px;
+  }
+  
+  .hour {
+    background-color: #ffffff;
+    color: #000000;
+    border-top: 1px dashed #000000;
+  }
+  
+  .past {
+    background-color: #d3d3d3;
+    color: white;
+  }
+  
+  .present {
+    background-color: #ff6961;
+    color: white;
+  }
+  
+  .future {
+    background-color: #77dd77;
+    color: white;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 10fr 0.5fr 0.5fr;
+    grid-template-rows: 1.5fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 1.5fr;
+    gap: 2px 2px;
+  }
+
+  .save-container {
+    display: flex;
+    flex-direction: row;
+    align-items: space-around;
+  }
+
+  .hours {
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    flex-basis: auto;
+    width: 3rem;
+    height: 4rem;
+    border-top-style:solid;
+    border-top-width: 1px;
+    border-color: black;
+        
+  }
+
+  .hour-flex-item {
+    margin-top:0.5rem;
+    
+  }
+
+  .planner { grid-area: 1 / 2 / 12 / 5; 
+    height:fit-content;
+    width: fit-content;
+    }
+  
+  .hour900 { grid-area: 2 / 2 / 3 / 3;  }
+    
+  .hour1000 { grid-area: 3 / 2 / 4 / 3; }
+  
+  .hour1100 { grid-area: 4 / 2 / 5 / 3; }
+  
+  .hour1200 { grid-area: 5 / 2 / 6 / 3; }
+  
+  .hour1300 { grid-area: 6 / 2 / 7 / 3; }
+  
+  .hour1400 { grid-area: 7 / 2 / 8 / 3; }
+  
+  .hour1500 { grid-area: 8 / 2 / 9 / 3; }
+  
+  .hour1600 { grid-area: 9 / 2 / 10 / 3; }
+  
+  .hour1700 { grid-area: 10 / 2 / 11 / 3; }
+  
+  .hour900-text { grid-area: 2 / 3 / 3 / 4; }
+  
+  .hour1000-text { grid-area: 3 / 3 / 4 / 4; }
+  
+  .hour1100-text { grid-area: 4 / 3 / 5 / 4; }
+  
+  .hour1200-text { grid-area: 5 / 3 / 6 / 4; }
+  
+  .hour1300-text { grid-area: 6 / 3 / 7 / 4; }
+  
+  .hour1400-text { grid-area: 7 / 3 / 8 / 4; }
+  
+  .hour1500-text { grid-area: 8 / 3 / 9 / 4; }
+  
+  .hour1600-text { grid-area: 9 / 3 / 10 / 4; }
+  
+  .hour1700-text { grid-area: 10 / 3 / 11 / 4; }
+  
+  .padding-area-top { 
+        grid-area: 1 / 1 / 2 / 6; 
+        min-height: 3rem;
+    }
+  
+  .padding-area-bottom { 
+        grid-area: 11 / 1 / 12 / 6;
+        min-height: 3rem;
+    }
+  
+  .padding-area-right { 
+        grid-area: 1 / 5 / 12 / 6; 
+        width: 2rem;
+    }
+  
+  .padding-area-left { 
+        grid-area: 1 / 1 / 12 / 2; 
+        width: 2rem;
+    }
+  
+  .hour900-save { grid-area: 2 / 4 / 3 / 5; }
+  
+  .hour1000-save { grid-area: 3 / 4 / 4 / 5; }
+  
+  .hour1100-save { grid-area: 4 / 4 / 5 / 5; }
+  
+  .hour1200-save { grid-area: 5 / 4 / 6 / 5; }
+  
+  .hour1300-save { grid-area: 6 / 4 / 7 / 5; }
+  
+  .hour1400-save { grid-area: 7 / 4 / 8 / 5; }
+  
+  .hour1500-save { grid-area: 8 / 4 / 9 / 5; }
+  
+  .hour1600-save { grid-area: 9 / 4 / 10 / 5; }
+  
+  .hour1700-save { grid-area: 10 / 4 / 11 / 5; }
+  
+  .entry-blank { grid-area: 2 / 3 / 11 / 4; }
+
+
+  
