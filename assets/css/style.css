@@ -4,6 +4,9 @@
   line-height: 1;
 }
 
+
+
+
 textarea {
   background: transparent;
   border: none;
@@ -301,3 +304,31 @@ body {
 .entry-blank {
   grid-area: 1 / 4 / 1 / 5;
 }
+
+/* start FOOTER STYLES START */
+  footer {
+    background: blueviolet;
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  footer h6 {
+    color: navy;
+    color: black;
+    font-size: 30px;
+    margin: 0;
+  }
+  
+  footer div {
+    line-height: 1.5;
+    text-align: right;
+  }
+  
+  footer a {
+    color: cadetblue;
+  }
+  /* END FOOTER STYLES */
+  
