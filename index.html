@@ -5,7 +5,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
@@ -24,149 +34,280 @@
         <div class="container">
         </div>
     </div>
-        <div class="container">
-            <div class="grid-container">
-                <div class="planner"></div>
+    <div class="container">
+        <div class="grid-container">
+            <div class="planner"></div>
 
-                <div class="hour800 hours">
-                    <div class="hour-flex-item">8am</div>
-                </div>
-                <div class="hour900 hours">
-                    <div class="hour-flex-item">9am</div>
-                </div>
-                <div class="hour1000 hours">
-                    <div class="hour-flex-item">10am</div>
-                </div>
-                <div class="hour1100 hours">
-                    <div class="hour-flex-item">11am</div>
-                </div>
-                <div class="hour1200 hours">
-                    <div class="hour-flex-item">12pm</div>
-                </div>
-                <div class="hour1300 hours">
-                    <div class="hour-flex-item">1pm</div>
-                </div>
-                <div class="hour1400 hours">
-                    <div class="hour-flex-item">2pm</div>
-                </div>
-                <div class="hour1500 hours">
-                    <div class="hour-flex-item">3pm</div>
-                </div>
-                <div class="hour1600 hours">
-                    <div class="hour-flex-item">4pm</div>
-                </div>
-                <div class="hour1700 hours">
-                    <div class="hour-flex-item">5pm</div>
-                </div>
+            <div class="hour800 hours">
+                <div class="hour-flex-item">8am</div>
+            </div>
+            <div class="hour900 hours">
+                <div class="hour-flex-item">9am</div>
+            </div>
+            <div class="hour1000 hours">
+                <div class="hour-flex-item">10am</div>
+            </div>
+            <div class="hour1100 hours">
+                <div class="hour-flex-item">11am</div>
+            </div>
+            <div class="hour1200 hours">
+                <div class="hour-flex-item">12pm</div>
+            </div>
+            <div class="hour1300 hours">
+                <div class="hour-flex-item">1pm</div>
+            </div>
+            <div class="hour1400 hours">
+                <div class="hour-flex-item">2pm</div>
+            </div>
+            <div class="hour1500 hours">
+                <div class="hour-flex-item">3pm</div>
+            </div>
+            <div class="hour1600 hours">
+                <div class="hour-flex-item">4pm</div>
+            </div>
+            <div class="hour1700 hours">
+                <div class="hour-flex-item">5pm</div>
+            </div>
 
-                <textarea id="hour-800-text-button" class="hour800-text past"></textarea>
-                <textarea id="hour-900-text-button" class="hour900-text past"></textarea>
-                <textarea id="hour-1000-text-button" class="hour1000-text past"></textarea>
-                <textarea id="hour-1100-text-button" class="hour1100-text past"></textarea>
-                <textarea id="hour-1200-text-button" class="hour1200-text past"></textarea>
-                <textarea id="hour-1300-text-button" class="hour1300-text past"></textarea>
-                <textarea id="hour-1400-text-button" class="hour1400-text past"></textarea>
-                <textarea id="hour-1500-text-button" class="hour1500-text past"></textarea>
-                <textarea id="hour-1600-text-button" class="hour1600-text past"></textarea>
-                <textarea id="hour-1700-text-button" class="hour1700-text past"></textarea>
+            <textarea id="hour-800-text-button" class="hour800-text past"></textarea>
+            <textarea id="hour-900-text-button" class="hour900-text past"></textarea>
+            <textarea id="hour-1000-text-button" class="hour1000-text past"></textarea>
+            <textarea id="hour-1100-text-button" class="hour1100-text past"></textarea>
+            <textarea id="hour-1200-text-button" class="hour1200-text past"></textarea>
+            <textarea id="hour-1300-text-button" class="hour1300-text past"></textarea>
+            <textarea id="hour-1400-text-button" class="hour1400-text past"></textarea>
+            <textarea id="hour-1500-text-button" class="hour1500-text past"></textarea>
+            <textarea id="hour-1600-text-button" class="hour1600-text past"></textarea>
+            <textarea id="hour-1700-text-button" class="hour1700-text past"></textarea>
 
-                <div class="padding-area-top"></div>
-                <div class="padding-area-bottom"></div>
-                <div class="padding-area-right"></div>
-                <div class="padding-area-left"></div>
+            <div class="padding-area-top"></div>
+            <div class="padding-area-bottom"></div>
+            <div class="padding-area-right"></div>
+            <div class="padding-area-left"></div>
 
-                <div id="800" class="hour800-save save-container"><button type="button" class="btn btn-primary"><i
-                            class="fas fa-save"></i></button></div>
-                <div id="900" class="hour900-save save-container"><button type="button" class="btn btn-primary"><i
-                            class="fas fa-save"></i></button></div>
-                <div id="1000" class="hour1000-save save-container"><button type="button" class="btn btn-primary"><i
-                            class="fas fa-save"></i></button></div>
-                <div id="1100" class="hour1100-save save-container"><button type="button" class="btn btn-primary"><i
-                            class="fas fa-save"></i></button></div>
-                <div id="1200" class="hour1200-save save-container"><button type="button" class="btn btn-primary"><i
-                            class="fas fa-save"></i></button></div>
-                <div id="1300" class="hour1300-save save-container"><button type="button" class="btn btn-primary"><i
-                            class="fas fa-save"></i></button></div>
-                <div id="1400" class="hour1400-save save-container"><button type="button" class="btn btn-primary"><i
-                            class="fas fa-save"></i></button></div>
-                <div id="1500" class="hour1500-save save-container"><button type="button" class="btn btn-primary"><i
-                            class="fas fa-save"></i></button></div>
-                <div id="1600" class="hour1600-save save-container"><button type="button" class="btn btn-primary"><i
-                            class="fas fa-save"></i></button></div>
-                <div id=" 1700" class="hour1700-save save-container"><button type="button" class="btn btn-primary"><i
-                            class="fas fa-save"></i></button></div>
-                <div class="entry-blank"></div>
+            <div id="800" class="hour800-save save-container"><button type="button" class="btn btn-primary"><i
+                        class="fas fa-save"></i></button></div>
+            <div id="900" class="hour900-save save-container"><button type="button" class="btn btn-primary"><i
+                        class="fas fa-save"></i></button></div>
+            <div id="1000" class="hour1000-save save-container"><button type="button" class="btn btn-primary"><i
+                        class="fas fa-save"></i></button></div>
+            <div id="1100" class="hour1100-save save-container"><button type="button" class="btn btn-primary"><i
+                        class="fas fa-save"></i></button></div>
+            <div id="1200" class="hour1200-save save-container"><button type="button" class="btn btn-primary"><i
+                        class="fas fa-save"></i></button></div>
+            <div id="1300" class="hour1300-save save-container"><button type="button" class="btn btn-primary"><i
+                        class="fas fa-save"></i></button></div>
+            <div id="1400" class="hour1400-save save-container"><button type="button" class="btn btn-primary"><i
+                        class="fas fa-save"></i></button></div>
+            <div id="1500" class="hour1500-save save-container"><button type="button" class="btn btn-primary"><i
+                        class="fas fa-save"></i></button></div>
+            <div id="1600" class="hour1600-save save-container"><button type="button" class="btn btn-primary"><i
+                        class="fas fa-save"></i></button></div>
+            <div id=" 1700" class="hour1700-save save-container"><button type="button" class="btn btn-primary"><i
+                        class="fas fa-save"></i></button></div>
+            <div class="entry-blank"></div>
+        </div>
+    </div>
+
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
+    </script>
+    <script src="./assets/js/script.js"></script>
+
+    <br> </br>
+
+    <!-- "Contact/Footer" start h6-->
+    <!--   <footer id="contact" class="contact">
+        <h6 class="section-title secondary-border">
+            Contact
+        </h6>
+        </div>
+        <br></br>
+        <div class="flex-row">
+            <div class="contact-info">
+
+                <h6>❤️ Designed by Samantha Peterson</h6>
+                <p>
+                    &copy; 2021 Samantha Peterson Web Development, Inc.
+                    <p>
+                        Linkedin
+                        <link rel="website"
+                            href="https://www.linkedin.com/in/samantha-peterson-web-developer-photographer/">
+                        <br />
+                        Github
+                        <link rel="website" href="https://github.com/SamanthaPeterson">
+                    </p>
+
+                    <address>
+                        432 North 900 East <br />
+                        Nephi, UT <br />
+                        84648<br />
+                        P: (385-448-9497)<br />
+                        E: <a href="mailto:PHOTOGRAPHER.SAMANTHA@LIVE.COM">PHOTOGRAPHER.SAMANTHA@LIVE.COM</a>
+                    </address>
+            </div>
+            <div class="contact-form">
+                <br></br> -->
+    <!---  <h6>Say Hi!</h6>
+                <form>
+                    <label for="contact-name">Your Name</label>
+                    <input type="text" id="contact-name" placeholder="Your Name" />
+
+                    <label for="contact-message">Message</label>
+                    <textarea id="contact-message" placeholder="Message"></textarea>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </footer>-->
+
+    <!-- Footer  -->
+    <footer id="footer">
+
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-6 footer-contact">
+                        <h3>Samantha Peterson Web Developer and Designer</h3>
+                        <p>
+                            <div></div>
+                            432 North 900 East <br>
+                            Nephi, UT 84648<br>
+                            United States <br><br>
+                            <strong>Phone:</strong> +1 385 448 9497<br>
+                            <strong>Email:</strong> photographer.samantha@live.com<br>
+                        </p>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 footer-links">
+                        <h4>Useful Links</h4>
+                        <ul>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+                        </ul>
+                    </div>
+                    -->
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Photography</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Social Media Management &
+                                    Development</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 footer-newsletter">
+                        <h4>Join Our Newsletter</h4>
+                        <p>Made as a project for the University of Utah Coding Boot Camp July 2021</p>
+                        <form action="" method="post">
+                            <input type="email" name="email"><input type="submit" value="Subscribe">
+                        </form>
+                    </div>
+
+                </div>
             </div>
         </div>
 
+        <div class="container d-md-flex py-4">
+
+            <div class="me-md-auto text-center text-md-start">
+
+            </div>
+            <div class="credits">
+
+                Designed by
+            </div>
+            <h6>Say Hi!</h6>
+            <form>
+                <label for="contact-name">Your Name</label>
+                <input type="text" id="contact-name" placeholder="Your Name" />
+
+                <label for="contact-message">Message</label>
+                <textarea id="contact-message" placeholder="Message"></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        </div>
+        <div class="social-links text-center text-md-right pt-3 pt-md-0">
+            <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+            <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+            <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+            <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+            <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        </div>
+        <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+                class="bi bi-arrow-up-short"></i></a>
 
         </div>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js">
-        </script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-        <script src="./assets/js/script.js"></script>
-  
-  <br> </br>
-  
-  <!-- "Contact/Footer" start h6-->
-        <footer id="contact" class="contact">
-          <h6 class="section-title secondary-border">
-            Contact
-          </h6>
-    </div>
-    <br></br>
-    <div class="flex-row">
-      <div class="contact-info">
-       
-          <h6>❤️ Designed by Samantha Peterson</h6>
-          <p>
-            &copy; 2021 Samantha Peterson Web Development, Inc.
-            <p>
-              Linkedin
-              <link rel="website" href="https://www.linkedin.com/in/samantha-peterson-web-developer-photographer/">
-              <br />
-              Github
-              <link rel="website" href="https://github.com/SamanthaPeterson">
-            </p>
-        
-        <address>
-          432 North 900 East <br />
-          Nephi, UT <br />
-          84648<br />
-          P: (385-448-9497)<br />
-          E: <a href="mailto:PHOTOGRAPHER.SAMANTHA@LIVE.COM">PHOTOGRAPHER.SAMANTHA@LIVE.COM</a>
-        </address>
-      </div>
-      <div class="contact-form">
-        <br></br> 
+   
+
+    <div class="contact-form">
+        <br></br>
         <h6>Say Hi!</h6>
         <form>
-          <label for="contact-name">Your Name</label>
-          <input type="text" id="contact-name" placeholder="Your Name" />
+            <label for="contact-name">Your Name</label>
+            <input type="text" id="contact-name" placeholder="Your Name" />
 
-          <label for="contact-message">Message</label>
-          <textarea id="contact-message" placeholder="Message"></textarea>
+            <label for="contact-message">Message</label>
+            <textarea id="contact-message" placeholder="Message"></textarea>
 
-          <button type="submit">Submit</button>
+            <button type="submit">Submit</button>
         </form>
-      </div>
     </div>
-    </footer> 
 
- </div>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js">
-        </script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-        <script src="./assets/js/script.js"></script>
-  
+
+
+
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
+    </script>
+    <script src="./assets/js/script.js"></script>
+
+
+
 </body>
 
 </html>
