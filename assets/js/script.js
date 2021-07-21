@@ -1,4 +1,7 @@
 let timeDisplay = moment().format('dddd, MMMM Do');
+var textareaEl = $("textarea");
+var localStorageReferences = ["800", "900", "1000", "1100", "1200", "1300", "1400", "1500", "1600", "1700"]
+var timeOfDay = (moment().format('HH')) * 100;
 
 init();
 
@@ -13,9 +16,6 @@ function saveText() {
     localStorage.setItem(this.id, textBox);
 }
 
-var textareaEl = $("textarea");
-var localStorageReferences = ["800", "900", "1000", "1100", "1200", "1300", "1400", "1500", "1600", "1700"]
-var timeOfDay = (moment().format('HH')) * 100;
 
 
 for (i = 0; i < textareaEl.length; i++) {
