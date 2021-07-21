@@ -1,7 +1,9 @@
 # third-party-apis-challenge-work-day-scheduler-module-5
 
 My hope is that this will be a very simple and easy to use application for anyone who attempts to use it. 
-
+The purpose of this project is to help a user plan out a busy workday. It is designed to allow the user to click in the empty text and entry  box, note appointments, 
+Meetings, or to do‘s for the day. And the nice thing is that if you click the save button on the side to the right the information that you just typed in for your day is saved in your local storage so you can review that information until you remove it or change it. 
+I always find myself writing things I need to do down on sticky notes or small pieces of paper or I think of things I need to do in my head so they’re scattered. This would be such a helpful tool to keep everything in one place and map out by our what you needed to accomplish in your day. I have heard it said by quite a few people that it helps if you make small attainable and achievable goals and I think this is a ticket to that. 
 
 Used 
 CSS
