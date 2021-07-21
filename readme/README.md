@@ -1,5 +1,13 @@
 # third-party-apis-challenge-work-day-scheduler-module-5
 
+Used 
+CSS
+HTML
+JAVASCRIPT
+JQUERY 
+GOOGLE FONTS
+MOMENT JS
+
 User Story
 AS AN employee with a busy schedule
 I WANT to add important events to a daily planner
