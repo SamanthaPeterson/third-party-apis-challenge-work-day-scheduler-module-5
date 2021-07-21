@@ -22,17 +22,17 @@ for (i = 0; i < textareaEl.length; i++) {
 
     textareaEl[i].value = localStorage.getItem(localStorageReferences[i]);
 
-    let blank = parseInt(localStorageReferences[i]);
+    let empty = parseInt(localStorageReferences[i]);
 
-    var selector = $(`.hour${[blank]}-text`);
+    var selector = $(`.hour${[empty]}-text`);
 
-    if (timeOfDay === blank) {
+    if (timeOfDay === empty) {
         selector.removeClass("past");
         selector.addClass("present");
 
     }
 
-    if (timeOfDay < blank) {
+    if (timeOfDay < empty) {
         selector.removeClass("past");
         selector.addClass("future");
 
