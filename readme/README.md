@@ -1,5 +1,8 @@
 # third-party-apis-challenge-work-day-scheduler-module-5
 
+My hope is that this will be a very simple and easy to use application for anyone who attempts to use it. 
+
+
 Used 
 CSS
 HTML
