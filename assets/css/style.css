@@ -334,6 +334,7 @@ footer a {
 
 #footer {
   color: #444444;
+  font-family: static/YanoneKaffeesatz-Light.ttf, oswald;
   font-size: 14px;
   background: #f6f4f4;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
