@@ -1,4 +1,4 @@
-let timeDisplay = moment().format('dddd, MMMM Do');
+let timeView = moment().format('dddd, MMMM Do');
 var textareaEl = $("textarea");
 var localStorageReferences = ["800", "900", "1000", "1100", "1200", "1300", "1400", "1500", "1600", "1700"]
 var timeOfDay = (moment().format('HH')) * 100;
@@ -6,7 +6,7 @@ var timeOfDay = (moment().format('HH')) * 100;
 init();
 
 function init() {
-    $('#currentDay').text(timeDisplay);
+    $('#currentDay').text(timeView);
 }
 
 $('.save-container').on("click", saveText);
