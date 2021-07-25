@@ -1,3 +1,4 @@
+<img width="928" alt="Screen Shot 2021-07-25 at 2 14 22 AM" src="https://user-images.githubusercontent.com/85209802/126892964-9754f8d9-8e48-4601-9777-6d75e7346e01.png">
 # third-party-apis-challenge-work-day-scheduler-module-5
 
 The purpose of this project is to help a user plan out a busy workday. This daily scheduler has been designed to allow the user to click in the empty text and entry box, note appointments, meetings, or to-dos for the day. Moreover, the nice thing is that if you click the save button on the side to the right, the information you just typed in for your day is saved in your local storage, so you can review that information until you remove it or change it. 
