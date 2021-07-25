@@ -2,5 +2,8 @@
     "debug.console.closeOnEnd": true,
     "debug.allowBreakpointsEverywhere": true,
     "problems.showCurrentInStatus": true,
-    "task.problemMatchers.neverPrompt": true
+    "task.problemMatchers.neverPrompt": true,
+    "cSpell.ignoreWords": [
+        "oswaldv"
+    ]
 }
