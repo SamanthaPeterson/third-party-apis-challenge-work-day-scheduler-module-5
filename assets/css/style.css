@@ -50,7 +50,6 @@ textarea {
 
 
 
-
 .row {
   white-space: pre-wrap;
   height: 80px;
@@ -100,8 +99,16 @@ textarea {
 
 
 
+.button {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #d32073;
+  color: white;
+}
 
-.saveBtn {
+.btn btn-primary
+{
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
@@ -110,9 +117,7 @@ textarea {
 }
 
 
-
-
-.saveBtn i:hover {
+.button i:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
