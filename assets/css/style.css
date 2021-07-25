@@ -4,6 +4,14 @@
   line-height: 1;
 }
 
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1;
+}
+
+
 textarea {
   background: transparent;
   border: none;
@@ -152,7 +160,7 @@ body {
 
 }
 
-.planner {
+.schedule {
   grid-area: 1 / 2 / 12 / 5;
   height: fit-content;
   width: fit-content;
