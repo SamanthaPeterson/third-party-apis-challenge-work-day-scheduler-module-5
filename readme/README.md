@@ -1,17 +1,8 @@
 # third-party-apis-challenge-work-day-scheduler-module-5
 
-My hope is that this will be a very simple and easy to use application for anyone who attempts to use it. 
-The purpose of this project is to help a user plan out a busy workday. It is designed to allow the user to click in the empty text and entry  box, note appointments, 
-Meetings, or to do‘s for the day. And the nice thing is that if you click the save button on the side to the right the information that you just typed in for your day is saved in your local storage so you can review that information until you remove it or change it. 
-I always find myself writing things I need to do down on sticky notes or small pieces of paper or I think of things I need to do in my head so they’re scattered. This would be such a helpful tool to keep everything in one place and map out by our what you needed to accomplish in your day. I have heard it said by quite a few people that it helps if you make small attainable and achievable goals and I think this is a ticket to that. 
+The purpose of this project is to help a user plan out a busy workday. This daily scheduler has been designed to allow the user to click in the empty text and entry box, note appointments, meetings, or to-dos for the day. Moreover, the nice thing is that if you click the save button on the side to the right, the information you just typed in for your day is saved in your local storage, so you can review that information until you remove it or change it. 
+I always find myself writing things I need to do down on sticky notes or small pieces of paper, or I think of things I need to do in my head, so they’re scattered. This would be such a helpful tool to keep everything in one place and map out what you needed to accomplish in your day. I have heard by quite a few people that it helps if you make small, attainable, and achievable goals, and I think this is a ticket to that. 
 
-Used 
-CSS
-HTML
-JAVASCRIPT
-JQUERY 
-GOOGLE FONTS
-MOMENT JS
 
 User Story
 AS AN employee with a busy schedule
@@ -43,6 +34,7 @@ day planner demo
 Your Task Create a simple calendar application that allows a user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.  The starter code uses the Moment.js (Links to an external site.) library to work with date and time, but feel free to use a different JavaScript solution to handle this functionality since Moment.js is considered a "legacy" project. Learn more about some alternative solutions in the Moment.js project status page.
 
 Credit / Resources / Languages
+
 - https://github.com/moment/moment/ https://momentjs.com/
 - https://getbootstrap.com/docs/5.0/getting-started/introduction/
 - https://bootstrapmade.com/
@@ -54,3 +46,10 @@ Credit / Resources / Languages
 - the lesson materials provided by the UofU Boot Camp for Coding Students attending the course 
 - TA office hours, lectures & info proviided by our instructor
 -https://www.figma.com/ui-design-tool/
+
+-CSS
+-HTML
+-JAVASCRIPT
+-JQUERY 
+-GOOGLE FONTS
+-MOMENT JS
