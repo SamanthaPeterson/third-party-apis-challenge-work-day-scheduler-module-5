@@ -1,12 +1,8 @@
-
-
-
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
 }
-
 
 textarea {
   background: transparent;
@@ -17,74 +13,13 @@ textarea {
   padding: 10px;
 }
 
-.jumbotron {
-  text-align: center;
-  background-color: transparent;
-  color: black;
-  border-radius: 0;
-  border-bottom: 10px solid black;
-}
-
-.description {
-  white-space: pre-wrap;
-}
-
-.time-block {
-  text-align: center;
-  border-radius: 15px;
-}
-
-.row {
-  white-space: pre-wrap;
-  height: 80px;
-  border-top: 1px solid white;
-  ;
-}
-
-.hour {
-  background-color: #ffffff;
-  color: #000000;
-  border-top: 1px dashed #000000;
-}
-
-.past {
-  background-color: #d3d3d3;
-  color: white;
-}
-
-.present {
-  background-color: #c57e21;
-  color: white;
-}
-
-.future {
-  background-color: #2d7ad3;
-  color: white;
-}
-
-.saveBtn {
-  border-left: 1px solid black;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-  background-color: #d32073;
-  color: white;
-}
-
-.saveBtn i:hover {
-  font-size: 20px;
-  transition: all .3s ease-in-out;
-}
-
-body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-  line-height: 1;
-}
-
+/* Didn't end up using 
 .text-box {
   resize: none;
   padding: 10px;
 }
+*/
+
 
 .jumbotron {
   align-items: center;
@@ -95,9 +30,99 @@ body {
   border-bottom: 10px solid black;
 }
 
+
+
+
 .description {
   white-space: pre-wrap;
 }
+
+
+
+
+
+
+.time-block {
+  text-align: center;
+  border-radius: 15px;
+}
+
+
+
+
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid white;
+  ;
+}
+
+
+
+
+
+.hour {
+  background-color: #ffffff;
+  color: #000000;
+  border-top: 1px dashed #000000;
+}
+
+
+
+
+
+
+.past {
+  background-color: #d3d3d3;
+  color: white;
+}
+
+
+
+
+
+
+.present {
+  background-color: #c57e21;
+  color: white;
+}
+
+
+
+
+
+
+.future {
+  background-color: #2d7ad3;
+  color: white;
+}
+
+
+
+
+.saveBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #d32073;
+  color: white;
+}
+
+
+
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+}
+
+
+
+
+
+
+
+
 
 .time-block {
   text-align: center;
@@ -137,6 +162,14 @@ body {
   flex-direction: row;
   align-items: space-around;
 }
+
+
+
+
+
+
+
+
 
 .hours {
   display: flex;
@@ -306,6 +339,16 @@ body {
   grid-area: 1 / 4 / 1 / 5;
 }
 
+
+
+
+
+
+
+
+
+
+
 /* start FOOTER STYLES START */
 footer {
   background: blueviolet;
@@ -333,6 +376,14 @@ footer div {
 footer a {
   color: cadetblue;
 }
+
+
+
+
+
+
+
+
 
 /* END FOOTER STYLES */
 
